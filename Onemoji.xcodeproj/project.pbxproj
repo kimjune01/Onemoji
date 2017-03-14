@@ -17,6 +17,7 @@
 		BD20A2C71E77782D00410A37 /* VersionPrinter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD20A2C51E77782D00410A37 /* VersionPrinter.cpp */; };
 		BD20A2CE1E7780D500410A37 /* UIImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD20A2CB1E7780D500410A37 /* UIImage+Rotate.m */; };
 		BD20A2CF1E7780D500410A37 /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = BD20A2CD1E7780D500410A37 /* UIImage+OpenCV.mm */; };
+		BDA738BD1E77ADAD0068A539 /* OnemojiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA738BC1E77ADAD0068A539 /* OnemojiVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		BD20A2CB1E7780D500410A37 /* UIImage+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Rotate.m"; sourceTree = "<group>"; };
 		BD20A2CC1E7780D500410A37 /* UIImage+OpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+OpenCV.h"; sourceTree = "<group>"; };
 		BD20A2CD1E7780D500410A37 /* UIImage+OpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+OpenCV.mm"; sourceTree = "<group>"; };
+		BDA738BC1E77ADAD0068A539 /* OnemojiVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnemojiVC.swift; sourceTree = "<group>"; };
 		C4DDDB369D31ACE1A14B20CC /* Pods-Onemoji.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Onemoji.release.xcconfig"; path = "Pods/Target Support Files/Pods-Onemoji/Pods-Onemoji.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,8 +93,7 @@
 		BD20A2AE1E77761000410A37 /* Onemoji */ = {
 			isa = PBXGroup;
 			children = (
-				BD20A2AF1E77761000410A37 /* AppDelegate.swift */,
-				BD20A2B11E77761000410A37 /* ViewController.swift */,
+				BDA738BB1E77AD270068A539 /* Swift */,
 				BD20A2C91E77784400410A37 /* ObjC */,
 				BD20A2C81E77783400410A37 /* C++ */,
 				BD20A2B31E77761000410A37 /* Main.storyboard */,
@@ -124,6 +125,16 @@
 				BD20A2CD1E7780D500410A37 /* UIImage+OpenCV.mm */,
 			);
 			name = ObjC;
+			sourceTree = "<group>";
+		};
+		BDA738BB1E77AD270068A539 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				BD20A2AF1E77761000410A37 /* AppDelegate.swift */,
+				BD20A2B11E77761000410A37 /* ViewController.swift */,
+				BDA738BC1E77ADAD0068A539 /* OnemojiVC.swift */,
+			);
+			name = Swift;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +268,7 @@
 				BD20A2CE1E7780D500410A37 /* UIImage+Rotate.m in Sources */,
 				BD20A2CF1E7780D500410A37 /* UIImage+OpenCV.mm in Sources */,
 				BD20A2C31E7776D400410A37 /* ObjcBridge.mm in Sources */,
+				BDA738BD1E77ADAD0068A539 /* OnemojiVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

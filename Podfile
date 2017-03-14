@@ -8,4 +8,5 @@ target 'Onemoji' do
 
   # Pods for Onemoji
       pod 'OpenCV', '~> 3.1.0.1'
+  pod "SwiftyCam"
 end

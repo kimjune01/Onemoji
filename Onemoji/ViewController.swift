@@ -18,6 +18,13 @@ class ViewController: UIViewController {
     view.addSubview(blackView)
     blackView.center = view.center
   }
+  
+  override func viewDidAppear(_ animated: Bool) {
+    super.viewDidAppear(animated)
+    present(OnemojiVC(), animated: true) { 
+      //
+    }
+  }
 
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
