@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D63A920BE04EC3F3C6F64BC /* Pods_Onemoji.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7E36459E1DFCABF65FC97F /* Pods_Onemoji.framework */; };
+		BD20A2B01E77761000410A37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD20A2AF1E77761000410A37 /* AppDelegate.swift */; };
+		BD20A2B21E77761000410A37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD20A2B11E77761000410A37 /* ViewController.swift */; };
+		BD20A2B51E77761000410A37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD20A2B31E77761000410A37 /* Main.storyboard */; };
+		BD20A2B71E77761000410A37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD20A2B61E77761000410A37 /* Assets.xcassets */; };
+		BD20A2BA1E77761000410A37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD20A2B81E77761000410A37 /* LaunchScreen.storyboard */; };
+		BD20A2C31E7776D400410A37 /* ObjcBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = BD20A2C21E7776D400410A37 /* ObjcBridge.mm */; };
+		BD20A2C71E77782D00410A37 /* VersionPrinter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD20A2C51E77782D00410A37 /* VersionPrinter.cpp */; };
+		BD20A2CE1E7780D500410A37 /* UIImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD20A2CB1E7780D500410A37 /* UIImage+Rotate.m */; };
+		BD20A2CF1E7780D500410A37 /* UIImage+OpenCV.mm in Sources */ = {isa = PBXBuildFile; fileRef = BD20A2CD1E7780D500410A37 /* UIImage+OpenCV.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1650A473386E46A318E57C32 /* Pods-Onemoji.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Onemoji.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Onemoji/Pods-Onemoji.debug.xcconfig"; sourceTree = "<group>"; };
+		7D7E36459E1DFCABF65FC97F /* Pods_Onemoji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Onemoji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD20A2AC1E77761000410A37 /* Onemoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Onemoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD20A2AF1E77761000410A37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD20A2B11E77761000410A37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD20A2B41E77761000410A37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD20A2B61E77761000410A37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD20A2B91E77761000410A37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD20A2BB1E77761000410A37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD20A2C11E7776D400410A37 /* Onemoji-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Onemoji-Bridging-Header.h"; sourceTree = "<group>"; };
+		BD20A2C21E7776D400410A37 /* ObjcBridge.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ObjcBridge.mm; sourceTree = "<group>"; };
+		BD20A2C41E7776F300410A37 /* ObjcBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjcBridge.h; sourceTree = "<group>"; };
+		BD20A2C51E77782D00410A37 /* VersionPrinter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = VersionPrinter.cpp; sourceTree = "<group>"; };
+		BD20A2C61E77782D00410A37 /* VersionPrinter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = VersionPrinter.hpp; sourceTree = "<group>"; };
+		BD20A2CA1E7780D500410A37 /* UIImage+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Rotate.h"; sourceTree = "<group>"; };
+		BD20A2CB1E7780D500410A37 /* UIImage+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Rotate.m"; sourceTree = "<group>"; };
+		BD20A2CC1E7780D500410A37 /* UIImage+OpenCV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+OpenCV.h"; sourceTree = "<group>"; };
+		BD20A2CD1E7780D500410A37 /* UIImage+OpenCV.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIImage+OpenCV.mm"; sourceTree = "<group>"; };
+		C4DDDB369D31ACE1A14B20CC /* Pods-Onemoji.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Onemoji.release.xcconfig"; path = "Pods/Target Support Files/Pods-Onemoji/Pods-Onemoji.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD20A2A91E77761000410A37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D63A920BE04EC3F3C6F64BC /* Pods_Onemoji.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		749190F581E946EB406BEE49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D7E36459E1DFCABF65FC97F /* Pods_Onemoji.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		986DA9736B275338997D83CF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1650A473386E46A318E57C32 /* Pods-Onemoji.debug.xcconfig */,
+				C4DDDB369D31ACE1A14B20CC /* Pods-Onemoji.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD20A2A31E77761000410A37 = {
+			isa = PBXGroup;
+			children = (
+				BD20A2AE1E77761000410A37 /* Onemoji */,
+				BD20A2AD1E77761000410A37 /* Products */,
+				986DA9736B275338997D83CF /* Pods */,
+				749190F581E946EB406BEE49 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BD20A2AD1E77761000410A37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD20A2AC1E77761000410A37 /* Onemoji.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD20A2AE1E77761000410A37 /* Onemoji */ = {
+			isa = PBXGroup;
+			children = (
+				BD20A2AF1E77761000410A37 /* AppDelegate.swift */,
+				BD20A2B11E77761000410A37 /* ViewController.swift */,
+				BD20A2C91E77784400410A37 /* ObjC */,
+				BD20A2C81E77783400410A37 /* C++ */,
+				BD20A2B31E77761000410A37 /* Main.storyboard */,
+				BD20A2B61E77761000410A37 /* Assets.xcassets */,
+				BD20A2B81E77761000410A37 /* LaunchScreen.storyboard */,
+				BD20A2BB1E77761000410A37 /* Info.plist */,
+				BD20A2C11E7776D400410A37 /* Onemoji-Bridging-Header.h */,
+			);
+			path = Onemoji;
+			sourceTree = "<group>";
+		};
+		BD20A2C81E77783400410A37 /* C++ */ = {
+			isa = PBXGroup;
+			children = (
+				BD20A2C61E77782D00410A37 /* VersionPrinter.hpp */,
+				BD20A2C51E77782D00410A37 /* VersionPrinter.cpp */,
+			);
+			name = "C++";
+			sourceTree = "<group>";
+		};
+		BD20A2C91E77784400410A37 /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				BD20A2C41E7776F300410A37 /* ObjcBridge.h */,
+				BD20A2C21E7776D400410A37 /* ObjcBridge.mm */,
+				BD20A2CA1E7780D500410A37 /* UIImage+Rotate.h */,
+				BD20A2CB1E7780D500410A37 /* UIImage+Rotate.m */,
+				BD20A2CC1E7780D500410A37 /* UIImage+OpenCV.h */,
+				BD20A2CD1E7780D500410A37 /* UIImage+OpenCV.mm */,
+			);
+			name = ObjC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD20A2AB1E77761000410A37 /* Onemoji */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD20A2BE1E77761000410A37 /* Build configuration list for PBXNativeTarget "Onemoji" */;
+			buildPhases = (
+				1208815247400D2231F3AE4A /* [CP] Check Pods Manifest.lock */,
+				BD20A2A81E77761000410A37 /* Sources */,
+				BD20A2A91E77761000410A37 /* Frameworks */,
+				BD20A2AA1E77761000410A37 /* Resources */,
+				EBE4EC542274089CD7A8821E /* [CP] Embed Pods Frameworks */,
+				C8215CD8A8EDA122E8B67C52 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Onemoji;
+			productName = Onemoji;
+			productReference = BD20A2AC1E77761000410A37 /* Onemoji.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD20A2A41E77761000410A37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Soulcast;
+				TargetAttributes = {
+					BD20A2AB1E77761000410A37 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 59SVXWFZ98;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BD20A2A71E77761000410A37 /* Build configuration list for PBXProject "Onemoji" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD20A2A31E77761000410A37;
+			productRefGroup = BD20A2AD1E77761000410A37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD20A2AB1E77761000410A37 /* Onemoji */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD20A2AA1E77761000410A37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD20A2BA1E77761000410A37 /* LaunchScreen.storyboard in Resources */,
+				BD20A2B71E77761000410A37 /* Assets.xcassets in Resources */,
+				BD20A2B51E77761000410A37 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1208815247400D2231F3AE4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C8215CD8A8EDA122E8B67C52 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Onemoji/Pods-Onemoji-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBE4EC542274089CD7A8821E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Onemoji/Pods-Onemoji-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD20A2A81E77761000410A37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD20A2B21E77761000410A37 /* ViewController.swift in Sources */,
+				BD20A2C71E77782D00410A37 /* VersionPrinter.cpp in Sources */,
+				BD20A2B01E77761000410A37 /* AppDelegate.swift in Sources */,
+				BD20A2CE1E7780D500410A37 /* UIImage+Rotate.m in Sources */,
+				BD20A2CF1E7780D500410A37 /* UIImage+OpenCV.mm in Sources */,
+				BD20A2C31E7776D400410A37 /* ObjcBridge.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BD20A2B31E77761000410A37 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD20A2B41E77761000410A37 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD20A2B81E77761000410A37 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD20A2B91E77761000410A37 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD20A2BC1E77761000410A37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BD20A2BD1E77761000410A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD20A2BF1E77761000410A37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1650A473386E46A318E57C32 /* Pods-Onemoji.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 59SVXWFZ98;
+				INFOPLIST_FILE = Onemoji/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SC.Onemoji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Onemoji/Onemoji-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BD20A2C01E77761000410A37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4DDDB369D31ACE1A14B20CC /* Pods-Onemoji.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 59SVXWFZ98;
+				INFOPLIST_FILE = Onemoji/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SC.Onemoji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Onemoji/Onemoji-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD20A2A71E77761000410A37 /* Build configuration list for PBXProject "Onemoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD20A2BC1E77761000410A37 /* Debug */,
+				BD20A2BD1E77761000410A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD20A2BE1E77761000410A37 /* Build configuration list for PBXNativeTarget "Onemoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD20A2BF1E77761000410A37 /* Debug */,
+				BD20A2C01E77761000410A37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD20A2A41E77761000410A37 /* Project object */;
+}
