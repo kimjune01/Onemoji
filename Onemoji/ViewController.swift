@@ -21,7 +21,12 @@ class ViewController: UIViewController {
   
   override func viewDidAppear(_ animated: Bool) {
     super.viewDidAppear(animated)
-    present(OnemojiVC(), animated: true) { 
+    
+    present(EmojiPickerVC(), animated: true) {
+      
+    }
+    return;
+    present(OnemojiVC(), animated: true) {
       //
     }
   }
